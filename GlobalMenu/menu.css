@@ -1,12 +1,36 @@
 body {
     margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.2rem;
     
 }
 .navigation {
     padding-left: 1rem;
     padding-right: 1rem;
-    background-color: rgb(125, 181, 218);
-    height: 5rem;
+    background-color: rgb(145, 206, 246);
+    height: 6.4rem;
     display: flex;
     font-size: 100%;
+}
+.nav-inside {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    max-width: 1500px;
+}
+.LogoIMG {
+    margin-right: 2rem;
+}
+.LogoDolphy {
+    color: #fff;
+    font-size: 40px;
+    
+}
+/* .LogoNone {
+    text-decoration: none;
+} */
+.no-underline {
+    text-decoration: none;
 }
