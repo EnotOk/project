@@ -21,16 +21,24 @@ body {
     max-width: 1500px;
 }
 .LogoIMG {
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 .LogoDolphy {
     color: #fff;
-    font-size: 40px;
-    
+    font-size: 48px;
+    margin-right: 2rem;
+    margin-top: 0;
+    margin-bottom: 8px;
+    align-items: center;
+    height: 100%;
 }
-/* .LogoNone {
-    text-decoration: none;
-} */
+
 .no-underline {
     text-decoration: none;
+}
+.top-menu-buttons {
+    color: #fff;
+    align-items: center;
+    margin-right: 2rem;
+    font-size: 1.4rem;
 }
