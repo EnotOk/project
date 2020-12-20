@@ -2,13 +2,14 @@ body {
     margin: 0;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 1.2rem;
+    /* font-family: "Noto Sans"; */
     
 }
 .navigation {
     padding-left: 1rem;
     padding-right: 1rem;
     background-color: rgb(145, 206, 246);
-    height: 7rem;
+    height: 4.9rem;
     display: flex;
     font-size: 100%;
 }
@@ -25,8 +26,8 @@ body {
 }
 .LogoDolphy {
     color: #fff;
-    font-size: 48px;
-    margin-right: 2rem;
+    font-size: 42px;
+    margin-right: 10rem;
     margin-top: 0;
     margin-bottom: 8px;
     align-items: center;
@@ -49,29 +50,37 @@ body {
     display: flex;
 }
 .bgstart {
-    background-image: url(images/minecraft_dolphin_by_flowerscow_dd8b172-fullview.jpg);
-    background-color: rgb(038, 061, 121);
+    background-image: url(images/bg3.jpg);
+    /* background-image: url(images/background.jpg); */
+    background-color:rgb(035, 077, 160);
     background-repeat: no-repeat;
-    height: 720px;
-    padding-bottom: 2.5rem;
+    background-position: bottom;
+    height: 398px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 2rem;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: center;
+    align-items: flex-end;
 }
 .container {
     flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 400px;
     justify-content: space-between;
     align-items: center;
     display: flex;
-    width: 100%;
+    width: 700px;
+    position: absolute;
+    
 }
 .textWelcome {
     color: #fff;
     font-weight: 600;
-    font-size: 4rem;
+    font-size: 50px;
     line-height: 1.2;
+    text-transform: uppercase;
+    align-items: flex-start;
     
+
 }
