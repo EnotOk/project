@@ -75,6 +75,9 @@ body {
     position: absolute;
     
 }
+.container1 {
+    height: 599px;
+}
 .textWelcome {
     color:rgb(146, 221, 149);
     font-weight: 600;
@@ -114,12 +117,32 @@ body {
     border-radius: 20px;
     margin-bottom: 2rem;
 }
+.minimenured {
+    width: 800px;
+    height: 600px;
+    background: rgb(238, 160, 124);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    
+}
+
 .namemod {
     width: 760px;
     height: 50px;
     background: #fff;
-    border-radius: 20px;
+    border-radius: 15px;
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.8rem;
+    
     
 }
 .tagmod {
@@ -128,13 +151,29 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
+    font-size: 1.8rem;   
 }
 .photomode {
  display: flex;
  justify-content: center;
  align-items: center;
+margin-left: auto;
+margin-right: auto;
+}
+.tagmod:hover {
+text-decoration: underline;
+color: #222;
+}
+.descriptionmode {
+    width: 760px;
+    height: 100px;
+    background: #fff;
+    border-radius: 15px;
+    /* margin-top: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.8rem;
 }
 
 
@@ -223,11 +262,11 @@ a:hover {
 }
 .top-menu-buttons:hover {
     text-decoration: underline;
-    color: #222;
+    color: #fff;
 }
-.top-menu-buttons no-underline:hover {
-    text-decoration: underline;
-    color: #222;
+.top-menu-buttons {
+    text-decoration: none;
+    color: #fff;
 }
 
 
