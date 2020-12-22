@@ -285,6 +285,23 @@ color: #222;
     align-items: center;
     margin-bottom: 1.8rem;
 }
+.pignation {
+    padding: 0;
+    text-align:center;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.pagination li {
+    display: inline-block;
+    margin: 5px 3px 13px;
+    text-decoration: none;
+}
 
 
 
