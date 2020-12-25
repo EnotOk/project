@@ -398,10 +398,10 @@ a:hover {
 }
 
 
-.menumods {
+.menumodsgreen {
     width: 1800px;
     height: 1000px;
-    background: rgb(162, 236, 193);
+    background:  rgb(166, 233, 140);
     align-items: center;
     justify-content: center;
     display: flex;
@@ -412,6 +412,77 @@ a:hover {
     margin-bottom: 2rem;
     
 }
+.menumodsred {
+    width: 1800px;
+    height: 1030px;
+    background:  rgb(238, 160, 124);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    
+}
+.menumodswhite {
+    width: 1800px;
+    height: 1030px;
+    background:  rgb(158, 158, 158);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    
+}
+.menumodsblue{
+    width: 1800px;
+    height: 1030px;
+    background:  rgb(142, 198, 235);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    
+}
+.menumodsyellow{
+    width: 1800px;
+    height: 1030px;
+    background:  rgb(250, 236, 106);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    
+}
+.menumodspurple{
+    width: 1800px;
+    height: 1030px;
+    background:  rgb(205, 140, 230);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    
+}
+
 .containermods {
     height: 999px;
     width: 1700px;
@@ -467,7 +538,7 @@ a:hover {
         display: flex;
         justify-content: center;
         align-items: center;
-        background: rgb(194, 204, 198);
+        background: rgb(216, 216, 216);
         border-radius: 10px;
         filter: grayscale(0);
         cursor: pointer;
@@ -500,7 +571,7 @@ a:hover {
     } */
     .lightbox {
         position: fixed;
-        background: rgba(255, 255, 255, 0.63);
+        background: rgba(255, 255, 255, 0.952);
         top: 0;
         right: 0;
         left: 0;
@@ -514,7 +585,7 @@ a:hover {
     .box {
         height: calc(100% - 150px);
         width: calc(100% - 200px);
-        background: rgba(255, 255, 255, 0.65);
+        background: rgba(0, 0, 0, 0.109);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -584,4 +655,18 @@ a:hover {
     .tagmoddee:hover {
         text-decoration: none;
         color: #222;
+        }
+
+        .descriptionmodelocalDIVINE {
+            width: 1700px;
+            height: 200px;
+            background: #fff;
+            border-radius: 15px;
+            /* margin-top: 10px; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            
+            
         }
